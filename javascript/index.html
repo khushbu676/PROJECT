@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-player">
+    <div class="album-art">
+      <img id="album-cover" src="" alt="Album Cover">
+    </div>
+    <div class="song-info">
+      <h2 id="song-title">Song Title</h2>
+      <h3 id="artist-name">Artist Name</h3>
+    </div>
+    <audio id="audio" src=""></audio>
+    <div class="controls">
+      <button id="prev" class="btn">Prev</button>
+      <button id="play" class="btn">Play</button>
+      <button id="next" class="btn">Next</button>
+    </div>
+    <input type="range" id="volume" value="100" max="100">
+    <div class="progress-container">
+      <input type="range" id="progress" value="0" max="100">
+    </div>
+    <div class="song-list">
+      <h4>Song List</h4>
+      <ul id="song-list">
+       <li><a href="assest/Aaj Ki Raat_192(PagalWorld.com.sb).mp3"></a></li>
+       <li><a href="assest/Chand Chhupa Badal Mein_192(PagalWorld.com.sb).mp3"></a>
+       </li>
+       <li><a href="assest/Jo Tum Mere Ho_192(PagalWorld.com.sb).mp3"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
